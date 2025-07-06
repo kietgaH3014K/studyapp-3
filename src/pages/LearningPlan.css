@@ -1,0 +1,88 @@
+.learning-plan-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+}
+
+.plan-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2563eb;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.progress-container {
+  height: 16px;
+  background: #e5e7eb;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #2563eb;
+  border-radius: 8px;
+  transition: width 0.4s ease;
+}
+
+.progress-text {
+  font-size: 14px;
+  color: #4b5563;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.timeline {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.timeline-item {
+  background: #f9fafb;
+  border-left: 4px solid #93c5fd;
+  padding: 16px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  position: relative;
+}
+
+.timeline-item.completed {
+  border-color: #10b981;
+  background: #ecfdf5;
+}
+
+.week-label {
+  font-weight: bold;
+  font-size: 16px;
+  color: #1f2937;
+}
+
+.task-title {
+  font-size: 15px;
+  color: #374151;
+  margin: 4px 0;
+}
+
+.status-tag {
+  font-size: 13px;
+  display: inline-block;
+  margin-top: 6px;
+}
+
+.status-tag.done {
+  color: #16a34a;
+}
+
+.status-tag.pending {
+  color: #f59e0b;
+}
+
+.error-text {
+  color: red;
+  text-align: center;
+}
